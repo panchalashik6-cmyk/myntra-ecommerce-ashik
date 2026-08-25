@@ -1,0 +1,63 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  background: #f7f7f7;
+}
+
+.auth-page {
+  min-height: 100vh;
+  background: #f7f7f7;
+}
+
+.auth-card {
+  border-radius: 12px;
+}
+
+.brand-name {
+  font-size: 32px;
+  font-weight: 800;
+  letter-spacing: 2px;
+}
+
+.form-control {
+  min-height: 45px;
+  border-radius: 6px;
+}
+
+.form-control:focus {
+  box-shadow: none;
+  border-color: #333;
+}
+
+.btn-dark {
+  border-radius: 6px;
+}
+
+.forgot-link,
+.signup-link {
+  color: #ff3f6c;
+  text-decoration: none;
+  font-weight: 600;
+}
+
+.forgot-link:hover,
+.signup-link:hover {
+  text-decoration: underline;
+}
+
+@media (max-width: 576px) {
+
+  .auth-card {
+    border-radius: 0;
+  }
+
+  .brand-name {
+    font-size: 27px;
+  }
+
+}
