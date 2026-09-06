@@ -84,3 +84,6 @@ The frontend never creates a Razorpay order directly.
 7. Only after successful verification is the MongoDB order marked paid/placed and stock reduced.
 
 Use Razorpay Test Mode first. Switch to live keys only after testing and configuring payment capture/webhooks in the Razorpay Dashboard.
+
+Deployment configuration updated.
+
