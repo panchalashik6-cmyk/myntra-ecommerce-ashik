@@ -87,3 +87,5 @@ Use Razorpay Test Mode first. Switch to live keys only after testing and configu
 
 Deployment configuration updated.
 
+Vercel build configuration updated.
+
